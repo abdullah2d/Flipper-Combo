@@ -10,7 +10,7 @@ REM ##########################################################################
 DELAY 750  
 GUI r 
 DELAY 1000
-STRING powershell Start-Process notepad -Verb runAs
+STRING cmd Start-Process notepad -Verb runAs
 ENTER
 DELAY 750  
 ALT y 
